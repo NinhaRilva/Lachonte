@@ -1,0 +1,98 @@
+.grid-3col{
+  box-sizing: border-box;
+  max-width: 1200px;
+  height: 150px;
+  background-color:var(--cor-branco1);
+  display: grid;
+  gap:20px;
+  grid-template-columns: 2fr 2fr 1fr;
+  font-size: 1.4rem;
+  margin: 10px; 
+}
+.banner-principal{
+ margin-top: -20px;
+ padding-left: 20px;
+ height: 300px;
+ z-index: 1;
+ position: relative; 
+ justify-content: center;
+ padding-left: 50px;
+
+  
+}
+.banner-conteudo{
+
+}
+.titulo-principal{
+  padding-left: 20px;
+  font-size:4rem;
+  text-transform: uppercase;
+  position: relative;
+  
+}
+.destaque-texto{
+  font-family: 'Kavoon', cursive;
+  color: #422626;
+  position: relative;
+ 
+}
+ .destaque-texto::before{
+  content: url('../icones/DECORACAO.svg');
+   position:absolute;
+   bottom: -8px;
+   right: 60px;
+   z-index: -1;
+ 
+   
+  }
+.img-principal{
+ margin-top: 80px;
+ margin-left: -50px;
+}
+.titulo-secundario{
+font-size: 2rem;
+width: 200px;
+margin-right: 80px;
+
+}
+.preco{
+color:var(--cor-texto);
+font-size: 1.8rem;
+
+}
+ .carrinho{
+   background-color:var(--cor-fundo1);
+   display: flex;
+   align-items: center;
+   border-radius: 4px;
+   width: 150px;
+   align-items: center;
+      }
+   
+ .carrinho-p {
+  font-size: 1.5rem;
+ 
+ }
+ .img-carrinho{
+    margin-left: -15px; 
+ 
+ }
+ 
+ @media(max-width:900px)
+ {
+  .banner-conteudo{
+     font-size: 2rem;
+  }
+   .decoracao-texto::before{
+    content:'';
+    
+  
+     
+  }
+
+
+ }
+
+
+
+

@@ -1,0 +1,22 @@
+.banner-2{ 
+max-width: 1200px;
+ background-color:var(--cor-fundo1) ;
+ margin:-10px 10px; 
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: center;
+
+}
+.txto-saborear{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 3rem;
+} 
+.sabores img{ 
+   width: 180px;
+   height: 100px;
+   border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 50px;
+  
+}

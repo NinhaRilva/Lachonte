@@ -1,0 +1,37 @@
+.grid-2col{
+max-width: 1200px;
+background-color: #fff;
+margin: -8px 10px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+}
+.combo{
+  display: block;
+   position: relative;
+}
+.combo-preco{
+  content: '';
+  background-color:var(--cor-botao);
+  width: 70px;
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 100%;
+  color:var(--cor-branco1);
+  position: absolute;
+  bottom: 40px;
+  right: 15px;
+    }
+
+    .combo-detalhes {
+      padding-top: 60px; 
+      line-height: 30px;
+      font-size: 1.2rem;
+      position: relative;
+    }
+  .combo-h2::before{
+   content: url("../img/estrelas.svg");
+   position: absolute;
+   left: 170px;
+  }
