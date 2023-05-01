@@ -1,0 +1,156 @@
+.borda-alt{
+border-top: 30px solid var(--cor-fundo1);
+margin: 0px;
+}
+.sobre-nos{
+ max-width: 1000px;
+ display: grid;
+ grid-template-columns:  1.5fr 0.5fr 2.5fr;
+ margin: 0px auto;
+  }
+  .conteudo-sobre-nos{
+    display: block;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    margin: 10px;
+     max-width: 220px;
+    
+
+  }
+  .titulo-sobre-nos{
+    margin: 30px; 
+    text-align: center;
+  }
+ 
+.texto-sobre-nos{
+    margin: 0px 30px;
+    width: 20ch;
+   
+    }
+.conteudo-curtidas{
+  grid-column: 2;
+  grid-row: 1 span 2;
+   display:flex;
+   justify-content: end;
+}
+ .conteudo-curtidas ul {
+ width: 150px;
+ height: 60px;
+  border-radius: 8px;
+  background-color: #FBF3F0;
+   justify-items: center;
+  padding:  0 10px;
+
+  }
+  .conteudo-curtidas ul li h3{
+    text-align: left;
+    width: 150px;
+    font-size: 0.8rem;
+  }
+.curtidas-qtd{
+  color:#C3BBBB;
+
+}
+ .conteudo-curtidas ul li {
+ text-align: left;  
+ justify-content: left; 
+  height: 20px;
+
+}
+.grid-sobre-nos ul img{
+max-width:200px;
+align-items: end;
+margin-top: 10px;
+
+}
+ .modelo-img{
+  grid-column: 3;
+  grid-row-end: 3;
+  grid-row-start: 1;
+
+  z-index: -1;
+  margin: 0px auto;
+   
+}
+.titulo-nome h2{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 20px 0px 0px 30px;
+  position: relative;
+  z-index: 1;
+}
+.titulo-nome p{ 
+text-align: right;
+margin-top: -1px;
+}
+.subtitulo-nome{
+margin-bottom: 50px;
+}
+  .titulo-nome h2::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height:30px;
+    background-color: var(--cor-botao);
+    left: -2px;
+    border-radius: 50px;
+    z-index: -1;
+    }
+  .mensagem{
+    grid-column: 1;
+ /*    grid-column-end: 3;
+    grid-row-end:2;
+    grid-row-start: 4;
+  z-index: -1; */
+    margin: 0px auto;
+  padding: 20px;
+ margin-bottom: 50px;
+  }
+  .mensagem textarea { 
+ padding: 10px 0px;
+ margin: 10px 0px;
+  background-color: #FBF3F0;
+  }
+  .btn{
+   grid-column: 2;
+ padding:10px ;
+
+  }
+  .conteudo-curtidas ul li{
+    text-align: right;
+}
+.conteudo-curtidas ul li span{
+  font-size: 16px;
+  
+  }
+
+ @media(max-width: 910px){
+  .mensagem{
+   margin-top: 20px;
+  }
+.conteudo-curtidas ul li h3 {
+  font-size: 10px;
+   max-width: 100px;
+    height: 20px;
+
+  }
+.conteudo-curtidas ul li span{
+font-size: 8px;
+}
+
+ }
+ @media(max-width: 800px){
+.mensagem  {
+  grid-column: 1/-1;
+  margin: 0px auto
+}
+.mensagem textarea {
+align-items: center;
+
+}
+.conteudo-curtidas ul{
+  justify-content: center;
+  align-items: center;
+}
+ } 

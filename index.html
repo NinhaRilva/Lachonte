@@ -9,106 +9,158 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Kavoon&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="./style.css">
   <!--   <link rel="stylesheet" href="./css/cabecalho.css"> -->
 </head>
 
 <body>
-  <div class="todo-conteudo">
-    <header class="cabecalho">
-      <a href="./"> <img class="logo" src="./img/log.svg" alt="logo-Slanc"></a>
+   <header class="cabecalho">
+    <div class="cabecalho">
+         <div>
+           <a href="./"><img class="logo" src="./img/log.svg" alt="logo-Slanc"></a>
+         </div>
+      
       <nav class="cabecalho-nav">
         <ul class="cabecalho-lista">
-          <li class="cabecalho-item"><a href="#">Promoção</a></li>
-          <li class="cabecalho-item"><a href="#">Cardápio</a></li>
-          <li class="cabecalho-item">
-            <a href="#" id="#Sobre-nos">Sobre</a>
+          <li><a href="./promocao.html">Promoção</a></li>
+          <li><a href="./contato.html">Cardápio</a></li>
+          <li>
+            <a href="./sobre.html" id="#Sobre-nos">Sobre</a>
           </li>
-          <li class="cabecalho-item">
-            <a href="#" id="#contato">Contato</a>
+          <li>
+            <a href="./contato.html" id="#contato">Contato</a>
           </li>
-          <li class="cabecalho-item"><a href="#">Ajuda</a></li>
+          <li><a href="./ajuda.html">Ajuda</a></li>
         </ul>
       </nav>
+              
+      </div>
       <div class="login">
-        <a class="login-entrar" href="#">Entrar / </a>
-        <a href="#">Cadastrar</a>
+        <a class="login-entrar" href="./login.html">Entrar / </a>
+        <a class="login-cadastro" href="./cadastro.html">Cadastrar</a>
       </div>
     </header>
-    <main class="banner-principal grid-3col">
-      <div class="banner-conteudo">
-      <h1 class="titulo-principal"> O melhor
+
+    <main class="banner-principal banner-conteud-grid" >
+ 
+       <h1 class="titulo-principal"> O melhor
         <span class="destaque-texto">lanche</span> da cidade!
       </h1>
-      </div>
-       
-      <img class="img-principal" src="./img/burgue.png" alt="">
-      <div>
-        <h2 class=" titulo-secundario">Especial da casa <br>
-          <span class="preco">R$ 7.80</span>
-        </h2>
-        <ul class="carrinho">
-          <li> <a href="#"><img class="img-carrinho " src="./icones/carrinho-2.svg"></li alt="carrinho compra"></a>
-          <li>
-            <a class="carrinho-p" href="#">Carrinho</a>
-          </li>
-        </ul>
-      </div>
+
+      <div class="img-principal">
+      <img src="./img/burgue.png" width="701" height="524" alt=" hamburguer">
+    </div>
+      
+      <div class="banner-conteudo">
+        <h2 class="titulo-secundario">Especial<span> da casa</span></h2>            
+       <p class="preco">R$ 7.80</p>
+
+        <div class="carrinho-pedido">
+           <a href="#"><img class="img-carrinho" src="./icones/carrinho-2.svg"></a>
+          <a href="#">Carrinho</a>
+       </div>
+
+    </div> 
+  
     </main>
 
-    <section class="banner-2">
-      <h2 class="txto-saborear">Venha Saborear!</h2>
-      <div class="sabores ">
-        <img src="./img/pizza-1.jpg" alt="">
-        <img src=".//img/hot-dog-7605754_1920.jpg" alt="">
-        <img src="./img/cake-1284548_1920.jpg" alt="">
-        <img src="./img/batata-frita.jpg" alt="">
+    <section class="conteudo-banner">
+      <div class="banner-2">
+      <h2 class="texto-saborear">Venha Saborear!</h2>
+      <div class="sabores">
+       
+        <div class="img-principal-galeria" >
+       <img src="./img/torta-morango.jpg" alt=" torta-morango">
       </div>
+
+       <div class="galeria">
+       <ul>
+       <li><img src="./img/pizza-1.jpg" alt="pizza"></li>
+       <li><img src="./img/hot-dog-7605754_1920.jpg" alt="hot-dog"></li>
+        <li><img src="./img/cake-1284548_1920.jpg" alt="cake"></li>
+        <li><img src="./img/batata-frita.jpg" alt="batata-frita"></li>
+        <li> <img src="./img/torta-morango.jpg" alt=" torta-morango"></li>
+        <li><img src="./img/pizza-rolinho.jpg" alt=""></li>
+        
+      </ul>  
+    </div>
+    </div>
     </section>
-    <section class="carrossel grid-2col">
+    <section class="grid-2col">
+      
       <div class="combo">
         <img combo-preco src="./img/combo1.svg" alt="">
         <p class="combo-preco">R$ 16.90 <br> Combo#1</p>
       </div>
       <ol class="combo-detalhes">
         <h2 class="combo-h2">Combo#1</h2>
-        <li> uma hamburguer, salada, molho, <br> especial e queijo em dobro.</li>
+        <li> uma hamburguer, salada, molho, <br> especial e queijo em dobro.</li> class="combo-preco
         <li> Uma poção de batata media.</li>
         <li> Um Refrigerante de 300ml</li>
       </ol>
+ 
     </section>
+    
+    <article class=" borda-alt">
+      <div class="sobre-nos">
 
-    <article class="sobre-nos grid-2col">
       <div class="conteudo-sobre-nos">
         <h2 class="titulo-sobre-nos">Quem somos !</h2>
         <p class="texto-sobre-nos">Pequeno texto falando sobre o site
-          e sobre as curtidas balalaalaalalala
-          askdsdsadsadasdsa
-          ddadsd adsadsda add adsda</p>
-        <h2 class="ttulo-nome">Adrian RS</h2>
-        <p class="subtitulo-nome">Chef</p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia molestiae suscipit aliquid fugit ab laboriosam sapiente ex.</p>   
+          <div class="titulo-nome" >
+          <h2 >Adrian R Silva </h2>
+          <p>Chef de Cozinha</p>
+        </div>
       </div>
-      <div class="conteudo-curtidas">
-        <h3 class="curtidas">4.7<span>Curtida(12.800)</span></h3>
-        <img class="estrela-curtida" src="./icones/5estrelas.svg" alt="">
-        <img class="modelo-img" src="./img/modelo2.svg" alt="">
-      </div>
-      <div class="menssagem">
-        <label for="mensagen">Envie uma mensagem</label>
-        <textarea name="mensagen" id="mensagen" cols="30" rows="10"></textarea>
-        <button>Enviar</button>
-      </div>
-    </article>
-    <section class="entragar grid-2col">
-      <div>
-        <h2>Delyveri</h2>
-        <p>Entrega rápida e eficiênte</p>
-      </div>
-      <img src="./img/entregador-1.png" alt="">
-    </section>
 
-  </div>
-  </div>
+  <div class="conteudo-curtidas">
+       <ul>
+       <li><h3 h3class="curtidas"> 4.7 <span class="curtidas-qtd"> Curtida (12.800)</span ></h3></li>
+       <li><img src="./icones/5estrelas.svg" alt=""></li>
+       </ul>
+    
+       <div class="modelo-img">
+        <img  src="./img/modelo2.svg" alt="modelo">
+       </div>
+      </div>
+
+      <div class="mensagem">
+ <textarea name="mensagen" id="mensagen" cols="40" rows="10" placeholder="Envie uma mensagem"></textarea>
+    <a class="botao-a" src="#">Enviar</a>
+      
+      </div>
+    </div>
+
+    </article>
+
+    <section class="entregar ">
+      <div class="entregar-conteudo">
+      <ul> 
+        <li><p>Faça já o seu  pedido!</p></li>
+        <li><h2>Delyveri</h2> </li>
   
+        <li><h3> Entrega rápida e eficiênte</h3></li>
+    </ul>
+
+<a class="botao-a" href="#">Mais Informações</a>
+      <div class="img-entregar">
+      <img src="./img/entregador-1.png" alt="">
+    </div>
+   
+    </div> 
+  </div>
+  </div>
+    </section>
+     <footer class="tela">
+      <div class="rodape">
+
+      </div>
+     </footer>
+ 
+
+  <script src="./js/script.js"></script>
 </body>
+
 </html>

@@ -1,39 +1,62 @@
-
 .cabecalho{
   box-sizing: border-box;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  max-width: 1200px;
-  height: 150px;
   background-color:var(--cor-branco1);
-  font-size: 1.4rem;
-  margin: 10px; 
-  padding: 20px 30px;
+  font-size: 1.5rem;
   justify-content: space-around;
   align-items: center
-   
- }
+  }
  .cabecalho-nav{
  display: flex;
  margin: 0px;
  } 
  .cabecalho-lista{
   display: flex;
-  flex-wrap: wrap;
    padding: 0px ;
-   margin: 0px;
+  justify-content: center;
+  flex-wrap: wrap;
    }
-  .cabecalho-item{
+   .cabecalho-lista li{
     padding: 8px ;
      }
-  .login{
-  font-weight: 500;
-  margin-right: 10px;
-}
-  .login-entrar{
- color: var(--cor-texto);
-  font-size: 1.5rem;
- margin-right: 10px;
+   .login{
+    background-color: #fff;
+   display: block;  
+   padding: 20px 60px ;
+ text-align: right;
+ font-size: 1.8rem;
+    }
   
+  .login-entrar{
+   color: var(--cor-texto);
+   margin-right: 10px;
 }
+ @media(max-width:800px){
+
+.cabecalho{
+   padding-left: -20px;
+   position:relative
+}
+.cabecalho-lista li{
+  padding: 10px 20px;
+   background-color: #FAF4F1;
+   margin: 8px;
+ }
+  .login{
+ text-align: center;
+  }
+ }
+ @media(max-width:500px){
+  .login{
+    font-size: 1.5rem;
+  }
+
+ }
+ @media(max-width:300px){
+  .login{
+    font-size: 1rem;
+  }
+
+ }
