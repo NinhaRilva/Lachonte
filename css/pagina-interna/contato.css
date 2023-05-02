@@ -1,0 +1,42 @@
+.contato-main h1{
+padding:20px; 
+margin: 30px ; 
+
+
+}
+.contato-main li{
+  padding: 10px ;
+  font-size: 1.4rem;
+  text-align: start;
+  }
+
+.contato {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+}
+ .img-contato{
+width: 50%;
+justify-content: center;
+margin: 20px;
+
+} 
+@media(max-width:900px){
+  .contato-main li{
+    font-size: 1rem;
+
+    }
+  
+    }
+  
+@media(max-width:730px){
+.contato {
+ grid-template-columns: repeat(2, 1fr);
+  margin-right: 20px;
+  
+  }
+  .img-contato{
+    grid-column: 2;
+  }
+  }

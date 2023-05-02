@@ -5,8 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>login</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Pagina de login</h1>
+    <header class="cabecalho">
+      <div class="cabecalho">
+        <div>
+          <a href="./"
+            ><img class="logo" src="./img/log.svg" alt="logo-Slanc"
+          /></a>
+        </div>
+
+        <nav class="cabecalho-nav">
+          <ul class="cabecalho-lista">
+            <li><a href="./promocao.html">Promoção</a></li>
+            <li><a href="./cardapio.html">Cardápio</a></li>
+            <li>
+              <a href="./sobre.html" id="#Sobre-nos">Sobre</a>
+            </li>
+            <li>
+              <a href="./contato.html" id="#contato">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="login">
+        <a class="login-entrar" href="./login.html">Entrar / </a>
+        <a class="login-cadastro" href="./cadastro.html">Cadastrar</a>
+      </div>
+    </header>
+    <main class="pagina-login">
+      <div class="conteudo-login">
+        <h1>Bem vindo!</h1>
+
+        <form class="form-login">
+          <div class="conteudo-form">
+            <label for="email">Email/CPF</label>
+            <input type="email" id="email" nome="email" />
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" nome="senha" />
+            <div>
+              <button class="botao-padrao">ENTRAR</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="tela-rodape">
+      <div class="rodape">
+        <div class="rodape-log">
+          <img src="./img/log.svg" alt="" />
+        </div>
+
+        <div class="rodape-contato">
+          <ul>
+            <li><h2>Contato</h2></li>
+            <li>(81)9999-9999</li>
+            <li>(81)9888-8888</li>
+            <li>slanc@email.com</li>
+          </ul>
+        </div>
+
+        <div class="rodape-service">
+          <ul>
+            <li><h2>Serviços</h2></li>
+            <li><a href="./promocao.html">Promoção</a></li>
+            <li><a href="./cardapio.html">Cardápio</a></li>
+            <li>
+              <a href="./sobre.html" id="#Sobre-nos">Sobre</a>
+            </li>
+            <li>
+              <a href="./contato.html" id="#contato">Contato</a>
+            </li>
+            <li><a href="./ajuda.html">Ajuda</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rodape-red-social">
+        <ul>
+          <li><img src="./icones/instagram.svg" alt="" /></li>
+          <li><img src="./icones/facebook.svg" alt="" /></li>
+          <li><img src="./icones/youtube.svg" alt="" /></li>
+          <li><img src="./icones/twitter.svg" alt="" /></li>
+        </ul>
+        <p>Todos os direitos reservados</p>
+      </div>
+    </footer>
   </body>
 </html>

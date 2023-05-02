@@ -7,8 +7,6 @@ grid-template-columns: 2fr 1fr;
 justify-content: center;
  align-content: center;
 
-
-
 }
 .titulo-nome span{
   text-transform: lowercase;

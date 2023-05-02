@@ -4,7 +4,7 @@ html , body{
 :root{
   --cor-texto: #DC7878;
  --cor-fundo1:#F9B0B0;
- --cor-botao: #F55E0A;
+ --cor-botao: #FF6969;
  --cor-preto1:#000000;
  --cor-preto2:#2E2E2E;
 
@@ -13,19 +13,17 @@ html , body{
  --cor-clara:#fff;
 }
  
- html{
- border: 40px solid var(--cor-preto2);
- } 
+ 
 body{ 
   background-color: var(--cor-clara);
   margin: 0px;
   padding: 0px;
-  max-width: 1200px;
+  max-width: 1400px;
   box-sizing: border-box;
   margin: 0px auto;
   padding: 0px;
   font-family: 'Fredoka', sans-serif;
-
+  border: 40px solid var(--cor-preto2);
   overflow-x: hidden;
 overflow-y: hidden;
  }
@@ -35,11 +33,12 @@ overflow-y: hidden;
   max-width: 1200px;
 }
   .tela{
-    max-width: 1200px;
+    max-width:1400px;
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-     background-color: #000000;
+
   }
  img{
    max-width: 100%;
@@ -52,7 +51,7 @@ ul{
   text-decoration: none;
   color:var(--cor-preto1);
  } 
-
+ .botao-padrao,
  .botao-a{
   background-color: var(--cor-botao);
   padding: 10px 20px;

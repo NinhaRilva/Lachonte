@@ -1,0 +1,40 @@
+
+.conteudo-login h1{
+  text-align: center;
+}
+.form-login{
+ display: flex;
+ justify-content: center;
+ margin: 10px; 
+
+} 
+.form-login label{ 
+  display: block;
+  margin: 16px 0 8px 0px;
+  color: #DC7878;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.form-login input{
+  padding: 20px 200px;
+  border-radius: 8px;
+  background-color:#F8EAE4;
+  border: 1px solid #F8EAE4 ;
+
+}
+@media(max-width:700px){
+  .form-login input{
+    padding: 20px 150px;
+  }
+}
+@media(max-width:600px){
+  .form-login input{
+    padding: 20px 100px;
+  }
+}
+@media(max-width:500px){
+  .form-login input{
+    padding: 15px 60px;
+  }
+}
+

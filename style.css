@@ -4,4 +4,13 @@
 @import "./css/banner-2.css";
 @import "./css/carrossel.css";
 @import "./css/sobreNos.css"; 
-@import "./css/entregar.css" ;
+@import "./css/entregar.css";
+@import "./css/rodape.css";
+
+/* PAGINAS INTENAS */
+@import "./css/pagina-interna/promocao.css";
+@import "./css/pagina-interna/carrinho.css";
+@import "./css/pagina-interna/contato.css";
+@import "./css/pagina-interna/long-cadastro.css";
+@import "./css/pagina-interna/sonbrenos-pagina.css";
+@import "./css/pagina-interna/cardapio.css";

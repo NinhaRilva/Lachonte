@@ -1,0 +1,54 @@
+
+  
+.card-promocao{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+   flex-wrap: wrap;
+  margin: 60px;
+  
+}
+.card-padrao{
+display: block;
+  max-width: 250px;
+  background-color:#EAD9D9;
+  border-radius: 5px;
+  border: 4px solid #EAD9D9;
+  text-align: center;
+}
+.card {
+  grid-column: 1/-1;
+margin-bottom: -32px;
+}
+
+.contador {
+  display: flex;
+margin: 20px ;
+
+  }
+  .contador a{
+    margin: 0px;
+  }
+  .contador h3 { 
+  margin: 0px 12px;
+  font-size: 2rem;
+
+    }
+  
+
+ @media(max-width:850px){
+  .card-promocao{
+    grid-template-columns: repeat(2,1fr);
+
+  }
+ }
+ @media(max-width:600px){
+  .card-promocao{
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+  }
+ }

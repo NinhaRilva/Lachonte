@@ -1,0 +1,23 @@
+
+#sonbre-nos {
+  
+  
+}
+.main-sobre {
+ background-color:#F9B0B0;
+  text-align: center;
+margin:20px ;
+padding: 0;
+border-radius: 50px 0 ;
+border: 2px solid red;
+ }
+ .main-sobre{
+  padding: 20px;
+  font-size: 1.4rem;
+ }
+ .main-sobre h3 span{
+   font-family: 'Sacramento', cursive;
+   font-size: 1.2rem;
+
+
+ }

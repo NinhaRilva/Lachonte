@@ -1,0 +1,39 @@
+.main-cardapio{
+text-align: center;
+margin: 10px  ;
+}
+
+.cardapio-grid{
+  display: grid;
+ grid-template-columns: 1fr 2fr auto 1fr auto;
+ gap: 20px;
+ 
+}
+.cardapio-grid img{
+  max-width: 40%;
+   margin: 0px auto;
+
+}
+.conteudo-cardapio span{
+  
+}
+
+ @media(max-width:800px){
+  .cardapio-grid{
+    display: grid;
+   grid-template-columns: 1fr 2fr 1fr ;
+ }
+ .cardapio-grid span{
+  grid-column: 1;
+ }
+
+ .cardapio-grid img{
+  grid-column: 3;
+  grid-row: 1;
+ }
+ .cardapio-grid a{
+  width: 100px;
+  margin-top: -20px;
+  margin: auto;
+ }
+ }

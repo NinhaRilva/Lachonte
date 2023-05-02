@@ -49,6 +49,7 @@ align-content: center;
  padding: 8px 16px;
  border-radius: 4px;
  background-color: var(--cor-fundo1);
+  margin-right:  40px;
 }
 @media(max-width:1000px){
   .titulo-principal{
