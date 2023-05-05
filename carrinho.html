@@ -19,7 +19,8 @@
         </div>
 
         <nav class="cabecalho-nav">
-          <ul class="cabecalho-lista cabecalhoPg-atual">
+          <ul class="cabecalho-lista">
+            <li><a href="./promocao.html">Promoção</a></li>
             <li><a href="./cardapio.html">Cardápio</a></li>
             <li>
               <a href="./sobre.html" id="#Sobre-nos">Sobre</a>
@@ -35,7 +36,60 @@
         <a class="login-cadastro" href="./cadastro.html">Cadastrar</a>
       </div>
     </header>
-    <h1>Carrinho</h1>
+
+    <main class="grid-carrinho">
+      <div class="pagina-carrinho">
+        <img src="./icones/carrinho-2.svg" alt="" />
+        <h2>Carrinho</h2>
+      </div>
+
+      <ul class="pagina-carrinho-lista">
+        <li class="carrinho-produto">
+          <h3>Produto</h3>
+        </li>
+        <li class="carrinho-preco">
+          <h3>Preço</h3>
+        </li>
+        <li class="carrinho-qtd">
+          <h3>Quantidade</h3>
+        </li>
+        <li class="carrinho-total">
+          <h3>Total</h3>
+        </li>
+      </ul>
+
+      <div class="fechar-pagamento">
+        <div class="opcao-entrega">
+          <div>
+            <input type="radio" id="local" name="check" />
+            <label for="local">Retira no local</label>
+          </div>
+          <div>
+            <input type="radio" id="casa" name="check" />
+            <label for="casa">Entregar em casa</label>
+          </div>
+
+          <div class="calcular-frete">
+            <h2>Calcular taxa de entrega</h2>
+            <div>
+              <label for="cep">CEP: </label>
+              <input type="text" id="cep" placeholder="000000000-00" />
+              <h3>VALOR :R$<span> 0,00</span></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="total-pagamento">
+          <h3>Taxa de entrega: R$<span> 0,00</span></h3>
+          <h3>Total: R$<span> 0,00</span></h3>
+          <div class="botao-link">
+            <a class="botao-a btn-confirma" href="">Confirmar pagamento</a>
+            <a class="botao-a" href="./index.html">Continuar comprando</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <footer class="tela-rodape">
       <div class="rodape">
         <div class="rodape-log">

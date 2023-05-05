@@ -25,7 +25,7 @@ body{
   font-family: 'Fredoka', sans-serif;
   border: 40px solid var(--cor-preto2);
   overflow-x: hidden;
-overflow-y: hidden;
+ overflow-y: hidden;
  }
 
 .todo-conteudo{
@@ -54,14 +54,16 @@ ul{
  .botao-padrao,
  .botao-a{
   background-color: var(--cor-botao);
-  padding: 10px 20px;
+  padding: 8px 12px;
   border: none;
   border-radius: 8px;
-  margin-top: 20px;
+  margin: 20px; 
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--cor-clara);
  } 
+
+
  .grid-2col{
 max-width: 1200px;
 background-color:var(--cor-clara);
@@ -71,3 +73,8 @@ padding: 40px;
 grid-template-columns: 1fr 1fr;
 justify-content: center;
  } 
+
+ #mensagem{
+  border: none;
+  padding: 50px;
+}

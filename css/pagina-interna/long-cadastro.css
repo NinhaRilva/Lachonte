@@ -15,6 +15,21 @@
   font-size: 1.2rem;
   font-weight: bold;
 }
+.log-cad{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.log-cad a{
+  font-size: 1.2rem;
+  color: #DC7878;
+}
+.log-cad span{
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #DC7878;
+  
+}
 .form-login input{
   padding: 20px 200px;
   border-radius: 8px;
@@ -22,6 +37,7 @@
   border: 1px solid #F8EAE4 ;
 
 }
+
 @media(max-width:700px){
   .form-login input{
     padding: 20px 150px;

@@ -1,23 +1,21 @@
-.main-cardapio{
+.cardapio-grid p,
+.main-cardapio h1{
+ margin: 20px  ;
+  }
+
+.main-cardapio h2{
 text-align: center;
 margin: 10px  ;
 }
-
 .cardapio-grid{
   display: grid;
  grid-template-columns: 1fr 2fr auto 1fr auto;
  gap: 20px;
- 
-}
+ }
 .cardapio-grid img{
   max-width: 40%;
    margin: 0px auto;
-
 }
-.conteudo-cardapio span{
-  
-}
-
  @media(max-width:800px){
   .cardapio-grid{
     display: grid;

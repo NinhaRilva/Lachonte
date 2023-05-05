@@ -1,0 +1,106 @@
+.grid-carrinho{
+  background-color: #F8EAE4;
+  margin: 60px;
+   display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+.grid-carrinho > .pagina-carrinho{
+grid-column: 1/-1;
+}
+.pagina-carrinho{
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  align-items: center;
+  margin: 0px 40px;
+ 
+}
+
+.pagina-carrinho h2{
+ padding-left: 20px;
+
+}
+.pagina-carrinho img{
+ max-width: 30px;
+ max-height:30px ;
+ }
+ 
+
+.pagina-carrinho-2{
+display: flex;
+justify-content:space-evenly;
+}
+.grid-carrinho > .pagina-carrinho-lista{
+  grid-column: 1/-1;
+}
+.pagina-carrinho-lista{
+    display:flex;
+     justify-content: space-between;
+   margin-right: 40px;
+  border-bottom: 1px solid #D5CFCF;
+  }
+.carrinho-qtd span{
+  margin: 0px  10px; 
+ padding: 5px 10px;
+  background-color: #fff;
+
+}
+  .opcao-entrega{
+  display:block;
+  margin: 10px;
+  }
+  .opcao-entrega label{
+    font-size: 24px;
+  }
+  .opcao-entrega [type =radio]{
+     width: 20px;
+     height: 20px;
+      margin-right: 20px;
+    
+    }
+
+  .grid-carrinho >.fechar-pagamento{
+  grid-column: 1/-1;
+  margin: 20px 40px;
+  }
+   .fechar-pagamento{
+      display: grid;
+       grid-template-columns: 2fr 1fr;
+        gap:10px;
+     
+   }
+   .total-pagamento{
+    grid-column: 2;
+   } 
+   .calcular-frete{
+     align-items: center;
+   }
+   .calcular-frete input{
+   border: #D5CFCF;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+ .botao-link a{
+   display: flex;
+    flex-direction: column;
+
+ 
+ }
+ .botao-link > .botao-a{
+   text-align: center;
+ 
+ }
+
+ .btn-confirma{
+  background-color: #17AB25;
+ }
+  @media (max-width:800px){
+    .fechar-pagamento{
+      display: flex;
+       flex-direction: column;
+      align-items: center;
+   
+    }
+    
+  }
