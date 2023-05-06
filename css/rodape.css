@@ -36,6 +36,10 @@ margin: 0px 50px;
   padding: 40px ;
   margin: 0px;
 }
+.rodape-service li a:hover,
+.rodape-contato li:hover{
+   color: #f39f9f;
+}
 
 @media(max-width:700px){
   .rodape{

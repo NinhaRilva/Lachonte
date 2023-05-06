@@ -1,20 +1,30 @@
+.main-cardapio{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
 .cardapio-grid p,
 .main-cardapio h1{
- margin: 20px  ;
+ margin-left: 10px;
+margin-top: 20px;
+text-align: center;
   }
-
 .main-cardapio h2{
 text-align: center;
-margin: 10px  ;
+margin: 20px ; 
+ color: var(--cor-texto);
 }
+.main-cardapio h2 span{
+   color:rgba(108, 8, 8, 0.881);
+  }
 .cardapio-grid{
   display: grid;
- grid-template-columns: 1fr 2fr auto 1fr auto;
- gap: 20px;
+ grid-template-columns:1fr 2fr 1fr 1fr 1fr;
+ gap: 20px; 
  }
 .cardapio-grid img{
   max-width: 40%;
-   margin: 0px auto;
+  margin: 20px auto;
 }
  @media(max-width:800px){
   .cardapio-grid{
@@ -23,15 +33,16 @@ margin: 10px  ;
  }
  .cardapio-grid span{
   grid-column: 1;
- }
+  margin: 0px auto;
+  justify-items: center;
 
- .cardapio-grid img{
+ }
+.cardapio-grid img{
   grid-column: 3;
   grid-row: 1;
  }
  .cardapio-grid a{
-  width: 100px;
-  margin-top: -20px;
-  margin: auto;
- }
+  text-align: center;
+
+  }
  }

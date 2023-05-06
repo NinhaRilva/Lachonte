@@ -16,16 +16,12 @@ html , body{
  
 body{ 
   background-color: var(--cor-clara);
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
   max-width: 1400px;
   box-sizing: border-box;
-  margin: 0px auto;
-  padding: 0px;
   font-family: 'Fredoka', sans-serif;
-  border: 40px solid var(--cor-preto2);
-  overflow-x: hidden;
- overflow-y: hidden;
+border: 20px solid var(--cor-preto2); 
  }
 
 .todo-conteudo{
@@ -61,6 +57,7 @@ ul{
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--cor-clara);
+   text-align: center;
  } 
 
 
@@ -77,4 +74,16 @@ justify-content: center;
  #mensagem{
   border: none;
   padding: 50px;
+}
+
+@media(max-width:600px){
+   body{
+    border: none;
+   }
+
+}@media(min-width:1400px){
+  body{
+   border: none;
+  }
+
 }
