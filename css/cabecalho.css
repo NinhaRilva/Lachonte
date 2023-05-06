@@ -33,6 +33,12 @@
    color: var(--cor-texto);
    margin-right: 10px;
 }
+
+.carrinho-pedido{
+background-color: aqua; 
+
+
+}
  @media(max-width:800px){
 
 .cabecalho{
